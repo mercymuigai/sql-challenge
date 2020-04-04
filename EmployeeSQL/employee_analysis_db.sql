@@ -1,3 +1,9 @@
+-- GENERAL OBSERVATIONS
+   -- The frequency of employees sharing last names is high. It is therefore essential to use employee no for references or business matters
+   -- There are some employees who work for more than one department
+   -- The minimum salary for both genders is $ 40,000
+   
+
 -- List the following details of each employee: 
    ---employee number, last name, first name, gender, and salary.
 SELECT employees.emp_no, employees.last_name, employees.first_name, employees.gender, salaries.salary
